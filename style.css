@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(57, 53, 53);
+}
+#articleOne{
+    margin:8rem;
+    
+}
+.box{
+    width:20rem;
+    height:20rem;
+    background-color: grey;
+    padding:1rem;
+}
+.image{
+    width:5rem;
+    height:5rem;
+}
+#boxSection{
+    display: flex;
+    justify-content:start;
+    flex-wrap:wrap ;
+    gap:2rem;
+}
+.circles{
+    width:2rem;
+    height: 2rem;
+    
+    border-radius:100px;
+    
+}
+#circleOne{
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgb(110, 101, 101);
+}
+#circleTwo{
+    border:2px solid rgb(0, 0, 0);
+}
+#circleThree{
+    border:2px solid rgb(0, 0, 0);
+}
+.lines{
+    width: 0.1rem;
+    height:5rem;
+    background-color: rgb(39, 39, 29);
+    margin:0 1rem;
+}
+#articleOne{
+    display:flex;
+
+}
+#sectionTwo{
+    margin-top:20rem;
+}
+#headingOne{
+    color:wheat;
+    font-size: 3rem;
+    margin:0;
+}
+#head{
+    color: white;
+}
+#sectionLine{
+    height: .1rem;
+    width: 5rem;
+    background-color: red;
+    margin-bottom: 1rem;
+}

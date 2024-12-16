@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#navbar{
+    background-color: #2d2d2d;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+
+}
+#content{
+    display: flex;
+    gap:2rem;
+}
+.lines{
+    height:0.2rem;
+    width: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin:0.3rem;
+}
+#navline{
+   padding: 0;
+}
+#sectionOne{
+    background-color: #1f2020;
+    display: flex;
+    
+}
+
+#buttondiv{
+  display: flex;
+  gap: 1rem;
+
+}
+#btn{
+    height: 3rem;
+    width: 8rem;
+    margin-right: 2rem;
+}
+/* #playbutton{
+    
+} */
+#image1{
+    width:2rem;
+    height:2rem;
+    margin-top: .5rem;
+    border-radius: 100px;
+    margin-right: .1rem;
+}
+#headingOnes{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+.headingOne{
+    color: white;
+    font-family: "Inter";
+    font-size: 6rem;
+    margin: 0;
+}
+.headingpara{
+    color:white;
+    width:40rem;
+    margin-bottom: 3rem;
+}
+#secondColumn{
+    margin-left: 7rem;
+}
+#image{
+    width:40rem ;
+    height: 88vh;
+}
+#playnow{
+    margin-top:.9rem ;
+    color: white;
+}
+#headingTwo{
+    margin-bottom:3rem;
+    margin-top: 0;
+}
+#line2{
+    margin-left: 3rem;
+    margin-top: 9rem;
+    height: 0.1rem;
+    width: 80rem;
+    background-color: white;
+}
+#headline{
+    display: flex;
+}
+#pageno{
+    margin-top: 7rem;
+    margin-left: 42rem;
+    color: white;
+    font-style: Open Sans;
+    font-size: 0.8rem;
+}
